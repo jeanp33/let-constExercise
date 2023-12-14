@@ -1,0 +1,26 @@
+What is the difference between var and let?
+with var you can re-assigned/re-declare a variable, and var allowes hoisting.
+variables made with the let keyword are not hosted, so the cant run before declaring, and you cannot re-declare a variable using let.
+
+What is the difference between **var** and ***const***?
+with var you can re-assigned/re-declare a variable, and var allowes hoisting.
+with the const keyword a variable is constant, const creaates a block scope
+
+What is the difference between **let** and **const**?
+let allows you to re-assigned the variables but cant re-declare variables
+with const you cannot re-assigned or re-declaring the variables. both let and const creat block scope
+What is hoisting?
+with var keyword you can access the variable name before adding the value, will be underfined 
+
+
+ES5 Global Constants
+var PI = 3.14;
+PI = 42; // stop me from doing this!
+
+ES2015 Global Constants
+const PI = 3.14;
+    if(true){
+        const PI =4.12
+        console.log(PI);
+    }
+    console.log(PI);
